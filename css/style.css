@@ -124,7 +124,7 @@ nav ul li a:hover{
 .portfolio-btn{
 	width:190px;
 	height: 44px;
-	margin-top: 5px;
+	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -738,8 +738,7 @@ nav .menu-btn,
 		margin-left: -60px;
 	}  */
 	.model{
-		/* width: 500px; */
-		margin-top: -160px;
+		margin-top: -70px;
 		align-items: center;
 		justify-content: center;
 	}
@@ -763,17 +762,25 @@ nav .menu-btn,
 		justify-content: center;
 	}
 
+	#about{
+		margin-top:126px;
+	}
 	#about .about-text{
 		width: 60%;
-		margin-top: -40px;
+		margin-top: 30px;
 	} 
 
 	#about .about-img{
 		width: 90%;
+		height: 450px;
 	}
 	
 	#about .about-text{
 		width: 90%;
+	}
+	#about .about-text p{
+		font-size: 20px;
+		justify-content: center;
 	}
 	.about-img{
 		margin-top: -30px;
@@ -797,8 +804,12 @@ nav .menu-btn,
 		width:100%;
 	}
 
+	#contact .email i{
+		margin-right: -10px;
+	}
 	.email,
 	.phone{
-		width: 95%;
+		/* width: 95%; */
+		width: 320px;
 	}
 }
