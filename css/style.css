@@ -150,7 +150,7 @@ nav ul li a:hover{
 	justify-content: center;
 	width: 600px;
 	margin-top: 90px;
-	padding: 35px;
+	padding: 30px;
 }
 
 .about-text h3{
@@ -173,7 +173,7 @@ nav ul li a:hover{
 }
 
 .about-img img{
-    width: 100%;
+    width: 400px;
     height: 100%;
     object-fit: contain;
 }
@@ -689,7 +689,7 @@ nav .menu-btn,
 @media(max-width:720px){
 	.model{
 		display:block;
-		width: 400px;
+		/* width: 400px; */
 	}
 	.main-text{
 		width:70%;
@@ -716,9 +716,6 @@ nav .menu-btn,
 		flex-direction: column;
 	}
 	
-	#skills .skill-text{
-
-	}
 	#skills .skills-set{
 		width: 90%;
 	}
@@ -736,7 +733,60 @@ nav .menu-btn,
 		margin:0px;
 	}
 }
-@media(max-width:530px){
+@media only screen and (max-width:520px){
+	/* nav .menu-icon{
+		margin-left: -60px;
+	}  */
+	.model{
+		/* width: 500px; */
+		margin-top: -160px;
+		align-items: center;
+		justify-content: center;
+	}
+	.model img{
+		width: 320px;
+		height: 100%;
+		object-fit: contain;
+		justify-content: center;
+	}
+	.main-text{
+		width: 300px;
+		justify-content: center;
+		align-items: center;
+		margin-top: 3rem;
+	}
+
+	.main-text span{
+		text-align: center;
+	}
+	.main-text p{
+		justify-content: center;
+	}
+
+	#about .about-text{
+		width: 60%;
+		margin-top: -40px;
+	} 
+
+	#about .about-img{
+		width: 90%;
+	}
+	
+	#about .about-text{
+		width: 90%;
+	}
+	.about-img{
+		margin-top: -30px;
+		width: 320px;
+		height: 500px;
+	}
+
+	.about-img img{
+		width: 320px;
+		height: 100%;
+		object-fit: contain;
+	}
+
 	.contact-input{
 		width:90%;
 	}
@@ -744,9 +794,11 @@ nav .menu-btn,
 		display:none;
 	}
 	.skill-text{
-		width:85%;
+		width:100%;
 	}
-	/* #skills{
-		margin:0px;
-	} */
+
+	.email,
+	.phone{
+		width: 95%;
+	}
 }
