@@ -2,13 +2,13 @@
 /* CSS Document */
 
 body{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
 *{
 	box-sizing:border-box;
 	scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
 }
 ul{
     list-style: none;
@@ -208,7 +208,7 @@ nav ul li a:hover{
 	object-fit: contain;
 }
  .skill-btn{
-	margin: 0px 7px 7px 7px;
+	margin: 5px 7px 7px 7px;
 	padding: 10px;
 	/* border-color:#39bfbd ; */
 	/* background-color: #FFFFFF; */
@@ -753,27 +753,28 @@ nav .menu-btn,
 	/* nav .menu-icon{
 		margin-left: -60px;
 	}  */
+	
 	.model{
-		width: 100%;
+		width: 100vh;
 		height: 100%;
 		/* margin-top: -70px; */
 		margin-top: 70px;
 		align-items: center;
 		justify-content: center;
+		
 	}
 	.model img{
 		width: 320px;
 		height: 100%;
-		margin-left: 30px;
+		margin-left: auto;
 		object-fit: contain;
 		justify-content: center;
 	}
 	.main-text{
-		width: 300px;
+		width: 100vh;
 		justify-content: center;
 		align-items: center;
 		margin: 3rem 10px 10px 30px;
-		mar
 	}
 
 	.main-text span{
