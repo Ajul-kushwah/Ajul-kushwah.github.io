@@ -13,6 +13,57 @@
     <!--using FontAwesome--------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     
+    <style>
+
+        
+        .portfolio-btn1{
+            width: 180px;
+            margin-right: 16px;
+        }
+        .portfolio-btn2{
+            width: 160px;
+            background-color: #ffffff;
+            border: 1px solid #1db096;
+            color: black;
+        }
+
+        .portfolio-btn2:hover{
+            color: #ffffff;
+        }
+        .project-btn{
+            display: flex;
+        }
+
+        .project-box{
+            width: 500px;
+            height: 50%;
+        }
+        .project-box img{
+            width:100%;
+            height: 90%;
+            border-radius: 0%;
+        }
+
+        .sskills-set{
+            width: 100%;
+        }
+        @media only screen and (max-width: 520){
+            .portfolio-btn1{
+            width: 150px;
+            margin-right: 16px;
+        }
+        .portfolio-btn2{
+            width: 140px;
+            background-color: #ffffff;
+            border: 1px solid #1db096;
+            color: black;
+        }
+
+        .portfolio-btn2:hover{
+            color: #ffffff;
+        }
+        }
+    </style>
 </head>
 <body>
     <!-- main -->
@@ -49,24 +100,37 @@
         </nav>
 
         <!-- content -->
-        <div class="content">
+        <div class="row content">
             
             <!-- model -->
             <div class=" col model">
-                <img src="images/model.png" alt="" />
+                <img src="images/Smart Book Store/2.png" alt="" />
             </div>
 
             <!-- text -->
             <div class="col  main-text">
-                <span>Hello, I'm</span>
-                <h1>Ajul Kushwah</h1>
-                <p>Hey, I am a full stack web developer.
-                    Lorem ipsum dolor sit amet, consectetur
-                    Lorem ipsum dolor sit amet, consectetur  
+                <span>Smart</span>
+                <h1>Book Store</h1>
+                <p>It is a <b>Desktop Application</b> based on 
+                    <b>Book Store Management System</b> which deals 
+                    with all the information of Book Shop. 
+                    It keeps the database of customer records and publishing books records.
+                    maintaining records of sales and purchase and employ’s records, supplier’s 
+                    records and it also helps in payment activities.  
                 </p>
 
+                <!-- technology set -->
+                <div class="sskills-set">
+                    <h4>What  I've learn -</h4>
+                    <button class="skill-btn">Java</button>
+                    <button class="skill-btn">Java Swing</button>
+                    <button class="skill-btn">SQL</button>
+                    <button class="skill-btn">MySQL</button>
+                    
+                </div>
+
                 <!-- social link -->
-                <a href="#" class="social-link">
+                <!-- <a href="#" class="social-link">
                     <i class="fab fa-google-plus"></i>
                 </a>
                 <a href="#" class="social-link">
@@ -74,12 +138,17 @@
                 </a>
                 <a href="#" class="social-link">
                     <i class="fab fa-github"></i>
-                </a>
+                </a> -->
 
                 <!-- btn -->
-                <a href="#" class="portfolio-btn">
-                    See My portfolio
-                </a>
+                <div class="project-btn">
+                    <a href="#" class="portfolio-btn portfolio-btn1">
+                        See My portfolio
+                    </a>
+                    <a href="#" class="portfolio-btn portfolio-btn2">
+                        Source code
+                    </a>
+                </div>    
             </div>
         </div>
 
@@ -101,15 +170,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/book-solid.svg" alt="">
+                <img src="images/Smart Book Store/0.jpg" alt="">
 
                 <!-- project title -->
                 <h3>Digi Course</h3>
-        
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
 
             </div>
 
@@ -117,15 +181,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/client-2.png" alt="">
+                <img src="images/Smart Book Store/1.1.png" alt="">
             
                 <!-- project title -->
                 <h3>Covid19 Live</h3>
-        
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
                 
             </div>
 
@@ -133,15 +192,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/client-3.png" alt="">
+                <img src="images/Smart Book Store/1.2.jpg" alt="">
                 
                 <!-- project title -->
                 <h3>Ecommerse</h3>
-        
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
                 
             </div>
 
@@ -149,15 +203,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/client-1.png" alt="">
+                <img src="images/Smart Book Store/1.3.jpg" alt="">
         
                 <!-- project title -->
                 <h3>Smart Book Store</h3>
-        
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
 
             </div>
 
@@ -165,15 +214,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/client-2.png" alt="">
+                <img src="images/Smart Book Store/2.png" alt="">
             
                 <!-- project title -->
                 <h3>Smart Book Store</h3>
-        
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
                 
             </div>
 
@@ -181,15 +225,10 @@
             <div class="project-box">
                 
                 <!-- img----->
-                <img src="images/client-3.png" alt="">
+                <img class="project-img" src="images/Smart Book Store/0.jpg" alt="">
                 
                 <!-- project title -->
                 <h3>Smart Book Store</h3>
-         
-                <!--details/comment------>
-                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. </p>
-                <!--btn--------->
-                <a href="#">Read More</a>
                 
             </div>
         </div>
@@ -229,7 +268,7 @@
         <a href="#">
             <div class="phone">
                 <i class="fas fa-location-arrow"></i>
-                <h3>Toppura Vidisha,MP ,India</h3>
+                <h3>Toppura Vidisha,MP India</h3>
             </div>
         </a>
 

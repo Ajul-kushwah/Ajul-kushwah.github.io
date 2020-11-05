@@ -79,6 +79,16 @@ nav ul li a:hover{
 /* ----------------- nav ------------ */
 
 /* --------content------------ */
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+	min-width: 305px;
+}
 .model img{
     width: 100%;
     height: 100%;
@@ -197,7 +207,7 @@ nav ul li a:hover{
 	width: 500px;
 	object-fit: contain;
 }
-.skills-set .skill-btn{
+ .skill-btn{
 	margin: 0px 7px 7px 7px;
 	padding: 10px;
 	/* border-color:#39bfbd ; */
@@ -687,21 +697,27 @@ nav .menu-btn,
 
 
 @media(max-width:720px){
+	.content{
+		display: flex;
+	}
 	.model{
-		display:block;
-		/* width: 400px; */
+		flex-basis: 50%;
+		/* display:block; */
+		min-width: 300px;
+
 	}
 	.main-text{
 		width:70%;
-		position:absolute;
+		/* position:absolute;
 		left:50%;
-		top:130%;
-		transform:translate(-50%,-50%);
+		top:50%;
+		transform:translate(-50%,-50%); */
 		
 	}
 	
 	.col{
 		flex-basis: 100%;
+		min-width: 305px;
 	}
 
 	#about{
@@ -738,13 +754,17 @@ nav .menu-btn,
 		margin-left: -60px;
 	}  */
 	.model{
-		margin-top: -70px;
+		width: 100%;
+		height: 100%;
+		/* margin-top: -70px; */
+		margin-top: 70px;
 		align-items: center;
 		justify-content: center;
 	}
 	.model img{
 		width: 320px;
 		height: 100%;
+		margin-left: 30px;
 		object-fit: contain;
 		justify-content: center;
 	}
@@ -752,7 +772,8 @@ nav .menu-btn,
 		width: 300px;
 		justify-content: center;
 		align-items: center;
-		margin-top: 3rem;
+		margin: 3rem 10px 10px 30px;
+		mar
 	}
 
 	.main-text span{
