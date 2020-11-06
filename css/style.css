@@ -758,8 +758,7 @@ nav .menu-btn,
 	.model{
 		width: 100vh;
 		height: 100%;
-		/* margin-top: -70px; */
-		margin-top: 70px;
+		margin-top: 150px;
 		align-items: center;
 		justify-content: space-between;
 		
@@ -785,7 +784,7 @@ nav .menu-btn,
 		justify-content: center;
 	}
 	#about{
-		margin-top: 70px;
+		margin-top: 120px;
 	}
 	#about .about-text{
 		width: 60%;
