@@ -159,7 +159,7 @@ nav ul li a:hover{
 .about-text{
 	justify-content: center;
 	width: 600px;
-	margin-top: 90px;
+	/* margin-top: 90px; */
 	padding: 30px;
 }
 
@@ -204,6 +204,7 @@ nav ul li a:hover{
 
 .skills-set{
 	/* display: flex; */
+	
 	width: 500px;
 	object-fit: contain;
 }
@@ -760,13 +761,13 @@ nav .menu-btn,
 		/* margin-top: -70px; */
 		margin-top: 70px;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
 		
 	}
 	.model img{
 		width: 320px;
 		height: 100%;
-		margin-left: auto;
+		margin: auto;
 		object-fit: contain;
 		justify-content: center;
 	}
@@ -783,13 +784,11 @@ nav .menu-btn,
 	.main-text p{
 		justify-content: center;
 	}
-
 	#about{
-		margin-top:126px;
+		margin-top: 70px;
 	}
 	#about .about-text{
 		width: 60%;
-		margin-top: 30px;
 	} 
 
 	#about .about-img{
