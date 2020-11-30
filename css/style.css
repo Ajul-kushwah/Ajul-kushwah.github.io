@@ -157,8 +157,11 @@ nav ul li a:hover{
 }
 
 .about-text{
+	/* display: flex;
 	justify-content: center;
+	align-items: center; */
 	width: 600px;
+	height: 500px;
 	/* margin-top: 90px; */
 	padding: 30px;
 }
@@ -177,10 +180,10 @@ nav ul li a:hover{
 	text-align: justify;
 }
 
-.about-img{
+/* .about-img{
     width: 500px;
     height: 500px;
-}
+} */
 
 .about-img img{
     width: 400px;
@@ -384,11 +387,17 @@ nav ul li a:hover{
 	margin: 20px;
 	box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
 }
-.client-box img,
-.project-box img{
+.client-box img{
 	width:90px;
 	height: 90px;
 	border-radius: 50%;
+	object-fit: cover;
+}
+.project-box img{
+	width:320px;
+	height: 150px;
+	margin-bottom: 6px;
+	/* border-radius: 50%; */
 	object-fit: cover;
 }
 
