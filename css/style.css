@@ -418,7 +418,10 @@ nav ul li a:hover{
 .star i{
 	color:#ff9529;
 }
-
+.client-box i{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
 .client-box p,
 .project-box p{
 	color:#747474;
@@ -454,8 +457,10 @@ nav ul li a:hover{
 .client-box:hover{
 	transform: translateY(-10px);
 	box-shadow: 5px 10px 30px rgba(0,0,0,0.1);
-    background-color: #23cdaf;
+	background-color: #23cdaf;
+	
 	transition: all ease 0.2s;
+
 }
 
 
