@@ -418,7 +418,7 @@ nav ul li a:hover{
 .star i{
 	color:#ff9529;
 }
-.client-box i{
+.client-box .icon{
 	font-size: 50px;
 	margin-bottom: 10px;
 }
