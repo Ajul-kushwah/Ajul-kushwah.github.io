@@ -773,11 +773,11 @@ nav .menu-btn,
 	}  */
 	
 	.model{
+		display: flex;
+		justify-content: center;
 		width: 100vh;
 		height: 100%;
 		margin-top: 150px;
-		align-items: center;
-		justify-content: space-between;
 		
 	}
 	.model img{
