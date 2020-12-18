@@ -810,7 +810,8 @@ nav .menu-btn,
 	#about .about-img{
 		width: 90%;
 		height: 450px;
-		margin-top: 70px;
+		/* float: right; */
+		margin-top: 110px;
 	}
 	
 	#about .about-text{
