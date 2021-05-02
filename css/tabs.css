@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-/* * {
-  margin: 0;
-  padding: 0;
-}
-body {
-  padding: 50px;
-  background: #E5E4E2;
-} */
+
 .tabinator {
   background: #fff;
-  padding: 40px;
+  padding: 10px;
   font-family: Open Sans;
+  align-items: center;
 }
 .tabinator h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .tabinator input {
   display: none;
 }
@@ -57,15 +52,39 @@ body {
   top: 0; right: 0; bottom: 0; left: 0;
   box-shadow: 0 0 15px #939393;
 }
-#content1, #content2, #content3, #content4 {
+
+#content1, 
+#content2, 
+#content3, 
+#content4,
+#content5,
+#content6,
+#content7,
+#content8,
+#content9,
+#content10,
+#content11,
+#content12,
+#content13 {
   display: none;
   border-top: 1px solid #bbb;
   padding: 15px;
 }
+
+
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
+#tab4:checked ~ #content4, 
+#tab5:checked ~ #content5, 
+#tab6:checked ~ #content6, 
+#tab7:checked ~ #content7, 
+#tab8:checked ~ #content8, 
+#tab9:checked ~ #content9, 
+#tab10:checked ~ #content10, 
+#tab11:checked ~ #content11, 
+#tab12:checked ~ #content12,
+#tab13:checked ~ #content13{
   display: block;
   box-shadow: 0 0 15px #939393;
 }

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/tabs.css"/>
+
     <link rel="shortcut icon" type="" href="images/fav-icon.png">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -164,7 +166,7 @@
     </div>
     
     
-    <div id="projects">
+    <section id="projects">
 
         <!-- heading -->
         <div class="client-heading">
@@ -172,37 +174,89 @@
             <h3>Projects</h3>
         </div>
 
-        <!-- client-box-container------ -->
-        <div class="c-box-container">
+        <div class = "tabinator">
+            <!-- <h2>CSS tabs with shadow</h2> -->
+           
+            <input type = "radio" id = "tab1" name = "tabs" checked>
+            <label for = "tab1">Home</label>
+            <input type = "radio" id = "tab2" name = "tabs">
+            <label for = "tab2">Login</label>
+            <input type = "radio" id = "tab3" name = "tabs">
+            <label for = "tab3">Register</label>
+    
+            <input type = "radio" id = "tab4" name = "tabs">
+            <label for = "tab4">Forget Password</label>
             
-            <!-- Box -1 -->
-            <div class="project-box">
-                
-                <!-- img----->
-                <img src="images/tribal-talent-repository.PNG" alt="">
+            <input type = "radio" id = "tab5" name = "tabs">
+            <label for = "tab5">Tribal Users</label>
+            
+            <input type = "radio" id = "tab6" name = "tabs">
+            <label for = "tab6">Companies</label>
+            
+            <input type = "radio" id = "tab7" name = "tabs">
+            <label for = "tab7">Profile</label>
+            
+            <input type = "radio" id = "tab8" name = "tabs">
+            <label for = "tab8">Setting</label>
+            
+            <input type = "radio" id = "tab9" name = "tabs">
+            <label for = "tab9">Update info</label>
+            
+            <input type = "radio" id = "tab10" name = "tabs">
+            <label for = "tab10">All Post</label>
+            
+            <input type = "radio" id = "tab11" name = "tabs">
+            <label for = "tab11">Contact</label>
+            
 
-                <!-- project title -->
-                <h3>Home</h3>
-
+            <div id = "content1">
+              
+              <img src="images/tribal/home.PNG" alt="" width="100%">
+            </div>
+            <div id = "content2">
+              
+              <img src="images/tribal/login.PNG" alt="" width="100%">
+            </div>
+            <div id = "content3">
+              
+              <img src="images/tribal/register.PNG" alt="" width="100%">
             </div>
 
-            <!-- Box -2 -->
-            <div class="project-box">
-                
-                <!-- img----->
-                <img src="images/tribal-contact.PNG" alt="">
-            
-                <!-- project title -->
-                <h3>Contact </h3>
-                
+            <div id = "content4">
+              <img src="images/tribal/forget_password.png" alt="" width="100%">
             </div>
-
+            
+            <div id = "content5">
+              <img src="images/tribal/users.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content6">
+              <img src="images/tribal/companies.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content7">
+              <img src="images/tribal/profile.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content8">
+              <img src="images/tribal/settings1.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content9">
+              <img src="images/tribal/settings2.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content10">
+              <img src="images/tribal/all_post.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content11">
+              <img src="images/tribal/contact.png" alt="" width="100%">
+            </div>
+            
         </div>
-
-        <div class="c-box-container">
-            <img src="tribal_talent_repository.png" alt="">
-        </div>
-    </div>
+        
+    </section>
 
 
 
