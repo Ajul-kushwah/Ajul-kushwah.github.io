@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="stylesheet" href="css/tabs.css"/>
-
     <link rel="shortcut icon" type="" href="images/fav-icon.png">
+    
+
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
@@ -15,9 +17,15 @@
     <!--using FontAwesome--------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     
-    <style>
 
-        
+    <!--  -->
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css">
+    
+    <link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
+
+
+    <style>
         .portfolio-btn1{
             width: 180px;
             margin-right: 16px;
@@ -76,6 +84,13 @@
             margin-top: 160px;
         }
         }
+
+        .car{
+            margin: 20px;
+        }
+
+        /* ---------------------------------- */
+        
     </style>
 </head>
 <body>
@@ -99,7 +114,7 @@
             <!-- menu  -->
             <ul class="menu">
                 <li><a href="#main">Home</a></li>
-                <li><a href="#projects">Project ScreenShots</a></li>
+                <li><a href="#projects">Projects ScreenShots</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
@@ -113,35 +128,32 @@
             
             <!-- model -->
             <div class=" col model">
-                <img class="col-1" src="images/smwproject/soul_media.png"  />
+                <img class="col-1" src="images/codeblog/codeblog.PNG"  />
             </div>
 
             <!-- text -->
             <div class="col col-2 main-text">
-                <span>Soul Media</span>
-                <h1>Social Media Website</h1>
-                <p>It is a social media website like <b>Instagram</b></p>
-                <br>
+                <span>Code</span>
+                <h1>Blog</h1>
+                <p>This is CodeBlog website templates 
+                    which is totally create using <b>bootstrap</b> with animations.</p>
                 <!-- technology set -->
                 <div class="sskills-set">
                     <h4>What  I've learn -</h4>
                     <button class="skill-btn">HTML</button>
                     <button class="skill-btn">CSS</button>
-                    <button class="skill-btn">JavaScript</button>
-                    <button class="skill-btn">Python</button>
-                    
-                    <button class="skill-btn">Django</button>
-                    <button class="skill-btn">jQuery</button>
+                    <button class="skill-btn">Bootstrap</button>
                     
                 </div>
 
                 
+
                 <!-- btn -->
                 <div class="project-btn">
-                    <a target="_blank" class="portfolio-btn portfolio-btn1">
+                    <a href="https://ajul-kushwah.github.io/codeblog/" target="_blank" class="portfolio-btn portfolio-btn1">
                         See Live Demo
                     </a>
-                    <a target="_blank"  class="portfolio-btn portfolio-btn2">
+                    <a href="https://github.com/Ajul-kushwah/codeblog" target="_blank"  class="portfolio-btn portfolio-btn2">
                         Source code
                     </a>
                 </div>    
@@ -151,6 +163,7 @@
     </div>
     
     
+    <!-- project screen shots -->
     <section id="projects">
 
         <!-- heading -->
@@ -159,96 +172,39 @@
             <h3>Projects</h3>
         </div>
 
-        <div class = "tabinator">
-            <!-- <h2>CSS tabs with shadow</h2> -->
-           
-            <input type = "radio" id = "tab1" name = "tabs" checked>
-            <label for = "tab1">Home</label>
-            <input type = "radio" id = "tab2" name = "tabs">
-            <label for = "tab2">Login</label>
-            <input type = "radio" id = "tab3" name = "tabs">
-            <label for = "tab3">Register</label>
-    
-            <input type = "radio" id = "tab4" name = "tabs">
-            <label for = "tab4">Forget Password</label>
-            
-            <input type = "radio" id = "tab5" name = "tabs">
-            <label for = "tab5">Change password</label>
-            
-            <input type = "radio" id = "tab6" name = "tabs">
-            <label for = "tab6">Logout</label>
-            
-            <!-- <input type = "radio" id = "tab7" name = "tabs">
-            <label for = "tab7">Profile</label>
-            
-            <input type = "radio" id = "tab8" name = "tabs">
-            <label for = "tab8">Setting</label>
-            
-            <input type = "radio" id = "tab9" name = "tabs">
-            <label for = "tab9">Update info</label>
-            
-            <input type = "radio" id = "tab10" name = "tabs">
-            <label for = "tab10">All Post</label>
-            
-            <input type = "radio" id = "tab11" name = "tabs">
-            <label for = "tab11">Contact</label> -->
-            
-
-            <div id = "content1">
-              
-              <img src="images/smwproject/soul_media.png" alt="" width="100%">
-            </div>
-            <div id = "content2">
-              
-              <img src="images/smwproject/login.png" alt="" width="100%">
-            </div>
-            <div id = "content3">
-              
-              <img src="images/smwproject/register.png" alt="" width="100%">
-            </div>
-
-            <div id = "content4">
-              <img src="images/smwproject/forget password.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content5">
-              <img src="images/smwproject/change password.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content6">
-              <img src="images/smwproject/logout.png" alt="" width="100%">
-            </div>
-            
-            <!-- <div id = "content7">
-              <img src="images/tribal/profile.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content8">
-              <img src="images/tribal/settings1.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content9">
-              <img src="images/tribal/settings2.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content10">
-              <img src="images/tribal/all_post.png" alt="" width="100%">
-            </div>
-            
-            <div id = "content11">
-              <img src="images/tribal/contact.png" alt="" width="100%">
-            </div> -->
-            
-        </div>
+        
         
     </section>
 
 
-
-
-
-
-
+    <section class="car">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="owlcarousel/img/1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/client-1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/client-2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="owlcarousel/img/client-3.png" alt="">
+            </div>
+        </div>    
+    </section>
 
 
     <!--contact------------------------->
@@ -292,10 +248,69 @@
     <!--footer--------->
     
     <footer>
-        
+        <!-- <img src="images/fav-icon.png" 
+        width="30px" height="30px" 
+        style="margin-top: 5px;" class="logo-img"> -->
+        <!-- <span>jul</span> -->
         <p>My Portfolio,  Website</p>
         <p>Copyright 2020 - Ajul Kushwah</p>
     </footer>
     
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script>
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+    </script>
+
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+    <script src="owlcarousel/js/owl.carousel.min.js"></script>
+    <script>
+        // $('.owl-carousel').owlCarousel({
+        //     loop:true,
+        //     margin:10,
+        //     nav:true,
+        //     responsive:{
+        //         0:{
+        //             items:1
+        //         },
+        //         600:{
+        //             items:3
+        //         },
+        //         1000:{
+        //             items:5
+        //         }
+        //     }
+        // })
+
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            autoplay:true,
+            autoHeight:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                1000:{
+                    items:5,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
+    </script>
 </body>
 </html>

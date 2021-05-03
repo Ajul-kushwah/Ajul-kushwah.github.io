@@ -13,6 +13,10 @@
     <!--using FontAwesome--------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     
+    <!-- carousel css -->
+    <link rel="stylesheet" href="owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/css/owl.theme.default.min.css">
+
 </head>
 <body>
     <!-- main -->
@@ -259,7 +263,7 @@
     <br>
     <br>
     <!-- recent project -->
-    <section id="recent">
+    <section id="recent" style="padding: 20px;">
         <!-- heading -->
         <div class="recent-heading">
             <span>Recent</span>
@@ -267,13 +271,50 @@
         </div>
 
         <!-- img -->
-        <div class="recent-img">
+        <!-- <div class="recent-img">
             <img src="images/recent.png">
-            <!-- <img src="images/soul_media.png"> -->
-        </div>
+        </div> -->
+
+        <br><br>
+            <div class="owl-carousel owl-theme">
+	
+                <div class="item">
+                    <h5>Smart Book Store</h5>
+                    <img src="images/Smart Book Store/2.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>Tribal Talent Repository</h5>
+                    <img src="images/tribal/home-1.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>Soul Media</h5>
+                    <img src="images/smwproject/soul_media.png" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>Digi Course</h5>
+                    <img src="images/Digi Course Project/home-1.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>Covid19 Live</h5>
+                    <img src="images/covid19/covid.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>E-shop Template</h5>
+                    <img src="images/E-shop Template/E-shop.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>CodeBlog</h5>
+                    <img src="images/codeblog/codeblog.PNG" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+                <div class="item">
+                    <h5>Snack game</h5>
+                    <img src="images/snack-game.png" alt="" style="border: 1px solid rgb(199, 194, 194);">
+                </div>
+            
+            </div>
 
         <!-- recent btn -->
-        <a href="#" class="recent-btn">View Design</a>
+        <a href="#" class="recent-btn" style="margin-top: 10px;">View Design</a>
 
     </section>
     <br>
@@ -520,5 +561,34 @@
         <p>Copyright 2020 - Ajul Kushwah</p>
     </footer>
     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+
+    <script src="owlcarousel/js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            // stagePadding: 10,
+            margin:10,
+            responsiveClass:true,
+            autoplay:true,
+            // autoHeight:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                1000:{
+                    items:5,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
+    </script>
 </body>
 </html>
