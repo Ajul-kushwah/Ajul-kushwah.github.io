@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/tabs.css"/>
+
+    <link rel="shortcut icon" type="" href="images/fav-icon.png">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,800;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <!--using FontAwesome--------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+    <style>
+
+        
+        .portfolio-btn1{
+            width: 180px;
+            margin-right: 16px;
+        }
+        .portfolio-btn2{
+            width: 160px;
+            background-color: #ffffff;
+            border: 1px solid #1db096;
+            color: black;
+        }
+
+        .portfolio-btn2:hover{
+            color: #ffffff;
+        }
+        .project-btn{
+            display: flex;
+        }
+
+        .project-box{
+            width: 500px;
+            height: 50%;
+        }
+        .project-box img{
+            width:100%;
+            height: 90%;
+            border-radius: 0%;
+        }
+
+        .sskills-set{
+            width: 100%;
+        }
+        @media only screen and (max-width: 360px){
+        .content .model {
+            margin-top: 200px;
+        }
+        
+        .main-text .sskills-set h4{
+            margin: 10px 0px;
+        }
+        .portfolio-btn1{
+        width: 150px;
+        margin-right: 16px;
+        }
+        .portfolio-btn2{
+            width: 140px;
+            background-color: #ffffff;
+            border: 1px solid #1db096;
+            color: black;
+        }
+
+        .portfolio-btn2:hover{
+            color: #ffffff;
+        }
+
+        #projects{
+            margin-top: 160px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <!-- main -->
+    <div id="main">
+        <!-- nav -->
+        <nav>
+            <!-- logo -->
+            <a href="#" class="logo">
+                <img src="images/fav-icon.png"/>
+                <span>jul</span>
+            </a>
+
+            <!-- menu-btn--- -->
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+
+
+            <!-- menu  -->
+            <ul class="menu">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#projects">Projects ScreenShots</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- say-hi -->
+            <a href="#" class="hey">Say Hi</a>
+
+        </nav>
+
+        <!-- content -->
+        <div class="row content">
+            
+            <!-- model -->
+            <div class=" col model" >
+                <img class="col-1" src="images/Chat Application/home.png"  />
+            </div>
+
+            <!-- text -->
+            <div class="col col-2 main-text">
+                <span>Soal Media</span>
+                <h1>Chat App</h1>
+                <p>It is real time Chatting website like WhatsApp.,
+                    Performs One-to-One and group chat operations. Its Beautiful UI. 
+                <br>
+                <!-- technology set -->
+                <div class="sskills-set">
+                    <h4>What  I've learn -</h4>
+                    <button class="skill-btn">HTML</button>
+                    <button class="skill-btn">CSS</button>
+                    <button class="skill-btn">JavaScript</button>
+                    <button class="skill-btn">Python</button>
+                    
+                    <button class="skill-btn">Django</button>
+                    <button class="skill-btn">Django Channels</button>
+                    <button class="skill-btn">jQuery</button>
+                    <button class="skill-btn">Ajax</button>
+                    <button class="skill-btn">Bootstrap</button>
+                    
+                </div>
+
+                <!-- social link -->
+                <!-- <a href="#" class="social-link">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a> -->
+
+                <!-- btn -->
+                <div class="project-btn">
+                    <a href="https://youtu.be/hLSApdNzv1w" target="_blank" class="portfolio-btn portfolio-btn1">
+                        See Live Demo
+                    </a>
+                    <a  target="_blank"  class="portfolio-btn portfolio-btn2">
+                        Source code
+                    </a>
+                </div>    
+            </div>
+        </div>
+
+    </div>
+    
+    <section id="client">
+        <!-- heading -->
+        <div class="client-heading">
+            <span>Project</span>
+            <h3>Live Demo</h3>
+        </div>
+        
+        <div class="c-box-container">
+            <div class="video-container">
+                <!-- https://bit.ly/3npe9WY -->
+                <!-- https://youtu.be/8c9T8hu4hWo -->
+                <iframe width="1000" height="600" src="https://www.youtube.com/embed/6FzAoLB-HKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe  src="https://www.youtube.com/embed/8c9T8hu4hWo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        
+        <!-- heading -->
+        <div class="client-heading">
+            <span>ScreenShots</span>
+            <h3>Projects</h3>
+        </div>
+
+        <div class = "tabinator">
+            <!-- <h2>CSS tabs with shadow</h2> -->
+           
+            <input type = "radio" id = "tab1" name = "tabs" checked>
+            <label for = "tab1">Home</label>
+            <input type = "radio" id = "tab2" name = "tabs">
+            <label for = "tab2">Login</label>
+            <input type = "radio" id = "tab3" name = "tabs">
+            <label for = "tab3">Signup</label>
+    
+            <input type = "radio" id = "tab4" name = "tabs">
+            <label for = "tab4">User Chat</label>
+            
+            <input type = "radio" id = "tab5" name = "tabs">
+            <label for = "tab5">User Profile</label>
+            
+            <!-- <input type = "radio" id = "tab12" name = "tabs">
+            <label for = "tab12">Course paid</label> -->
+            
+            <input type = "radio" id = "tab6" name = "tabs">
+            <label for = "tab6">Users</label>
+            
+            <input type = "radio" id = "tab7" name = "tabs">
+            <label for = "tab7">Groups</label>
+            
+            <input type = "radio" id = "tab8" name = "tabs">
+            <label for = "tab8">Group Chat</label>
+            
+            <input type = "radio" id = "tab9" name = "tabs">
+            <label for = "tab9">Group Profile</label>
+            
+            <!-- <input type = "radio" id = "tab10" name = "tabs">
+            <label for = "tab10">Payment</label>
+            
+            <input type = "radio" id = "tab13" name = "tabs">
+            <label for = "tab13">Payment 2</label>
+            
+            <input type = "radio" id = "tab11" name = "tabs">
+            <label for = "tab11">Payment success</label> -->
+            
+
+            <div id = "content1">
+              
+              <img src="images/Chat Application/home.png" alt="" width="100%">
+            </div>
+            <div id = "content2">
+              
+              <img src="images/Chat Application/login.png" alt="" width="100%">
+            </div>
+            <div id = "content3">
+              
+              <img src="images/Chat Application/signup.png" alt="" width="100%">
+            </div>
+
+            <div id = "content4">
+              <img src="images/Chat Application/user chat.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content5">
+              <img src="images/Chat Application/user profile.png" alt="" width="100%">
+            </div>
+            
+            <!-- <div id = "content12">
+              <img src="images/Chat Application/user profile.png" alt="" width="100%">
+            </div> -->
+            
+            <div id = "content6">
+              <img src="images/Chat Application/users for chat.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content7">
+              <img src="images/Chat Application/groups.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content8">
+              <img src="images/Chat Application/group chat.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content9">
+              <img src="images/Chat Application/group profile.png" alt="" width="100%">
+            </div>
+            
+            <!-- <div id = "content10">
+              <img src="images/Chat Application/group chat.png" alt="" width="100%">
+            </div>
+            
+            <div id = "content11">
+              <img src="images/Digi Course Project/payment-3.PNG" alt="" width="100%">
+            </div>
+            
+            <div id = "content13">
+              <img src="images/Digi Course Project/payment-2.PNG" alt="" width="100%">
+            </div> -->
+            
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+    <!--contact------------------------->
+	<section id="contact">
+        <!--img-------->
+        <img src="images/contact.svg"/>
+        
+        <!--heading---------------->
+        <h3>Get The Best Project Estimation</h3>
+
+        <!-- contact details -->
+        <a href="mailto:ajulkushwah786@gmail.com"> 
+            <div class="email">
+                <i class="fas fa-envelope-square"></i>
+                <h3>Ajulkushwah786@gmail.com</h3>
+            </div>
+        </a>
+
+        <a href="tel:8085555743">
+            <div class="phone">
+                <i class="fas fa-phone"></i>
+                <h3>+91 8085555743</h3>
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="phone">
+                <i class="fas fa-location-arrow"></i>
+                <h3>Toppura Vidisha,MP India</h3>
+            </div>
+        </a>
+
+        <!--input----------------->
+        <div class="contact-input">
+            <input type="email" placeholder="Example@gmail.com"/>
+            <a href="#">Continue</a>
+        </div>
+        
+    </section>
+    
+    <!--footer--------->
+    
+    <footer>
+        <!-- <img src="images/fav-icon.png" 
+        width="30px" height="30px" 
+        style="margin-top: 5px;" class="logo-img"> -->
+        <!-- <span>jul</span> -->
+        <p>My Portfolio,  Website</p>
+        <p>Copyright 2020 - Ajul Kushwah</p>
+    </footer>
+    
+</body>
+</html>
